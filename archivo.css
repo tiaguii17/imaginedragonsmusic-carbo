@@ -8,9 +8,13 @@ body {
     .logos {
        width: 80px;
        height: 80px;
-       
+       transition: 2s;
        }
-      
+    
+    .logos:hover{
+        width: 60px;
+        height: 60px;
+    }
       
 
 header{
