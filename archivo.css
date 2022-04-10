@@ -18,7 +18,7 @@ body {
       
 
 header{
-    background-color: black;
+    background-color:black;
     
 
 }
@@ -56,11 +56,12 @@ a:hover{
 }
 h1{
     color: cyan;
+    background-color: black;
 }
 footer{
 
     background-color: black;
-    color: cyan;
+    color:cyan;
     transition: 1s;
 }
 footer:hover{
@@ -70,11 +71,14 @@ footer:hover{
 li{
     
     color: cyan;
+    background-color: black;
     
 }
 .integrante{
     background-image:"img/integrantes 2.jpg.jpg";
 }
+
+
 li{
     font-size: xx-large;
     font-family: 'Times New Roman', Times, serif;
@@ -95,8 +99,7 @@ li{
 }
 .grid-3{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-items: center;
     grid-column-gap: 10px;
@@ -119,9 +122,9 @@ li{
              background-image: url("img/imagen de fondo.jpg");}
         }
 
-@media screen and (min-width: 767px){
+@media screen and (min-device-width: 767px){
     .grid-3 {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns:repeat(1, 1fr);
         
     }
 }
