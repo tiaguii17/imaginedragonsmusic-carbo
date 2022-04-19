@@ -1,0 +1,123 @@
+body {
+  background-image: linear-gradient(blueviolet, cyan); }
+
+.logos {
+  width: 80px;
+  height: 80px;
+  transition: 2s; }
+
+.logos:hover {
+  width: 60px;
+  height: 60px; }
+
+header {
+  background-color: black; }
+
+.pages a {
+  color: cyan;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 60px;
+  transition: 1s; }
+
+.pages a:hover {
+  color: darkviolet; }
+
+.fondo {
+  width: 100%;
+  height: 1000px;
+  z-index: 0; }
+
+main {
+  background-image: url("../img/imagen de fondo.jpg");
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  z-index: 0; }
+
+a {
+  color: cyan;
+  border: 50px;
+  transition: 1s; }
+
+a:hover {
+  color: darkviolet; }
+
+h1 {
+  color: cyan;
+  background-color: black; }
+
+footer {
+  background-color: black;
+  color: cyan;
+  transition: 1s; }
+
+footer:hover {
+  color: darkviolet; }
+
+.canciones {
+  color: cyan;
+  background-color: black;
+  margin: 10px;
+  font-family: 'PT Serif', serif;
+  font-size: xx-large; }
+
+.integrante {
+  width: 100%;
+  height: 1000px;
+  background-image: url("../img/integrantes 2.jpg"); }
+
+p {
+  color: cyan;
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif; }
+
+.personas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.grid-1 {
+  display: grid;
+  grid-template-columns: 15% 85%;
+  grid-template-rows: 100%;
+  align-items: center;
+  justify-items: center; }
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 33,33%;
+  align-items: center;
+  justify-items: center; }
+
+ul {
+  margin: 50px;
+  padding: 100px; }
+
+li {
+  padding: 20px; }
+
+.hamburguesa {
+  height: 100px; }
+
+nav {
+  height: 100px; }
+
+@media screen and (max-device-width: 767px) {
+  body {
+    background-image: url("../img/imagen de fondo.jpg"); } }
+
+@media screen and (max-width: 767px) {
+  body {
+    background-image: url("../img/imagen de fondo.jpg"); } }
+
+@media screen and (min-device-width: 767px) {
+  .grid-3 {
+    grid-template-columns: repeat(1, 1fr); } }
+
+@media screen and (min-width: 1200px) {
+  .grid-3 {
+    grid-template-columns: repeat(4, 1fr); } }
