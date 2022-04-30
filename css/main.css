@@ -96,10 +96,14 @@ ul, .personas {
   padding: 100px; }
 
 li {
-  padding: 20px; }
+  padding: 20px;
+  list-style: none; }
 
 .hamburguesa {
   height: 100px; }
+
+li.nav-item {
+  background-color: black; }
 
 nav {
   height: 100px; }
