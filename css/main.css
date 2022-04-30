@@ -105,6 +105,26 @@ li {
 li.nav-item {
   background-color: black; }
 
+.daniel {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.mckee {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.wayne {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
+.platsman {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+
 nav {
   height: 100px; }
 
